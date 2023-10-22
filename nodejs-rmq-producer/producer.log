@@ -1,0 +1,739 @@
+produce message...
+/bin/sh: AdGroup: command not found
+/bin/sh: AdGroup: command not found
+/bin/sh: AdGroup: command not found
+/bin/sh: AdGroup: command not found
+/bin/sh: AdGroup: command not found
+produce message...
+produce message...
+Sent message: Hello, RabbitMQ!
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+An error occurred: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rne_bonus_transactions' at line 1
+    at PromiseConnection.query (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/node_modules/mysql2/promise.js:94:22)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/rmq-producer.js:44:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sql: 'SELECT * rne_bonus_transactions',
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rne_bonus_transactions' at line 1"
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+An error occurred: Error: Callback function is not available with promise clients.
+    at PromiseConnection.query (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/node_modules/mysql2/promise.js:96:13)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/rmq-producer.js:45:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+produce message...
+Sent message: Hello, RabbitMQ!
+An error occurred: Error: Callback function is not available with promise clients.
+    at PromiseConnection.query (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/node_modules/mysql2/promise.js:96:13)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/rmq-producer.js:45:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+produce message...
+Sent message: Hello, RabbitMQ!
+Promise { <pending> }
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+An error occurred: TypeError: result.then is not a function
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:58:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:58:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  {
+    transaction_id: 're_01409900160_01409900110',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 1,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  },
+  {
+    transaction_id: 're_01409900160_01409900210',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 2,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  },
+  {
+    transaction_id: 're_01409900260_01409900110',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 3,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  }
+]
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:58:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+[
+  {
+    transaction_id: 're_01409900160_01409900110',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 1,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  },
+  {
+    transaction_id: 're_01409900160_01409900210',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 2,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  },
+  {
+    transaction_id: 're_01409900260_01409900110',
+    referrer_status: 1,
+    referee_status: 0,
+    referrer_msisdn: '01409900110',
+    referee_msisdn: '01409900160',
+    referrer_product_code: 'TK44DIGIMIX4D',
+    referee_product_code: 'TESTMIXBUNDLE',
+    status: 'pending',
+    retry_count: 0,
+    id: 3,
+    referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+    referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+    created_at: 2023-10-19T01:59:04.161Z,
+    updated_at: 2023-10-19T01:59:04.175Z
+  }
+]
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+{
+  id: 1,
+  transaction_id: 're_01409900160_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+{
+  id: 2,
+  transaction_id: 're_01409900160_01409900210',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+{
+  id: 3,
+  transaction_id: 're_01409900260_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+Message sent and stored in the database.
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+{
+  id: 1,
+  transaction_id: 're_01409900160_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:59:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+{
+  id: 1,
+  transaction_id: 're_01409900160_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:59:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+{
+  id: 1,
+  transaction_id: 're_01409900160_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:59:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+produce message...
+Sent message: Hello, RabbitMQ!
+3
+{
+  id: 1,
+  transaction_id: 're_01409900160_01409900110',
+  referrer_status: 1,
+  referee_status: 0,
+  referrer_msisdn: '01409900110',
+  referee_msisdn: '01409900160',
+  referrer_product_code: 'TK44DIGIMIX4D',
+  referee_product_code: 'TESTMIXBUNDLE',
+  status: 'pending',
+  retry_count: 0,
+  referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+  referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+  created_at: 2023-10-19T01:59:04.161Z,
+  updated_at: 2023-10-19T01:59:04.175Z
+}
+An error occurred: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at new NodeError (node:internal/errors:399:5)
+    at Function.from (node:buffer:335:9)
+    at /Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:59:48
+    at Array.map (<anonymous>)
+    at main (/Users/nhassan/PF/Rmq/nodejs-rmq/nodejs-rmq-producer/producer.js:41:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}

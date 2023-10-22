@@ -1,0 +1,171 @@
+Waiting for messages. Press Ctrl+C to exit.
+Received message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900360_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'completed',
+      retry_count: 0,
+      id: 4,
+      referrer_disbursement_time: 2023-10-21T18:15:22.419Z,
+      referee_disbursement_time: 2023-10-21T18:15:22.419Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-21T18:15:22.419Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
+Received message: Hello, RabbitMQ!
+[
+  [
+    {
+      transaction_id: 're_01409900160_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 1,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900160_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 2,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900260_01409900110',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'pending',
+      retry_count: 0,
+      id: 3,
+      referrer_disbursement_time: 2023-10-19T01:59:04.132Z,
+      referee_disbursement_time: 2023-10-19T01:59:04.147Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-19T01:59:04.175Z
+    },
+    {
+      transaction_id: 're_01409900360_01409900210',
+      referrer_status: 1,
+      referee_status: 0,
+      referrer_msisdn: '01409900110',
+      referee_msisdn: '01409900160',
+      referrer_product_code: 'TK44DIGIMIX4D',
+      referee_product_code: 'TESTMIXBUNDLE',
+      status: 'completed',
+      retry_count: 0,
+      id: 4,
+      referrer_disbursement_time: 2023-10-21T18:15:22.419Z,
+      referee_disbursement_time: 2023-10-21T18:15:22.419Z,
+      created_at: 2023-10-19T01:59:04.161Z,
+      updated_at: 2023-10-21T18:15:22.419Z
+    }
+  ],
+  [
+    `transaction_id` VARCHAR(255) NOT NULL,
+    `referrer_status` TINYINT NOT NULL,
+    `referee_status` TINYINT NOT NULL,
+    `referrer_msisdn` VARCHAR(255) NOT NULL,
+    `referee_msisdn` VARCHAR(255) NOT NULL,
+    `referrer_product_code` VARCHAR(255) NOT NULL,
+    `referee_product_code` VARCHAR(255) NOT NULL,
+    `status` STRING(36) NOT NULL ENUM,
+    `retry_count` INT NOT NULL,
+    `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `referrer_disbursement_time` DATETIME(26) NOT NULL,
+    `referee_disbursement_time` DATETIME(26) NOT NULL,
+    `created_at` DATETIME(26) NOT NULL,
+    `updated_at` DATETIME(26) NOT NULL
+  ]
+]
